@@ -1,0 +1,23 @@
+
+
+html{
+    direction: rtl;
+}
+.space{
+    height: 50px;
+}
+
+.mainSection{
+    background-color: bisque;
+    height: 80vh
+}
+.bar{
+    text-align: center;    
+
+}
+.img-bar{
+    max-width: 200px;
+    max-height: 200px;
+    width: auto; /*save on the propurtion */
+    height: auto; /* save on the propurtion */
+}
