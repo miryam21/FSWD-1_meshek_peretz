@@ -84,21 +84,31 @@ header nav a:hover {
 }
 
 .img-bar {
-    max-width: 200px;
+    max-width: 250px;
     max-height: 200px;
     width: auto;
     height: auto;
     border-radius: 10%;
-    transition: all 0.4s ease;
+    transition: scale 0.4s ease;
+    opacity: 0.8;
 }
 
 .img-bar:hover {
+    scale: 1.2;
     cursor: pointer;
-    max-width: 300px;
-    max-height: 250px;
     border-width: 5px;
-    border-color: black;
+    border-color: var(--second-color);
+    border-style: solid;
     align-self: center;
+    opacity: 1;
+}
+
+.main-img{
+    position: relative;
+}
+.main-img img{
+    
+
 }
 
 
