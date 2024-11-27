@@ -53,7 +53,7 @@ body {
     width: 100%;
     object-fit: cover; 
     border-radius: 400px 0px;
-    opacity: 0.4;
+    opacity: 0.8;
 }
 
 .main-img button {
@@ -61,11 +61,11 @@ body {
     width: 25%;
     height: 13%;
     position: absolute;
-    top: 65%; 
-    left: 45%; 
+    top: 70%; 
+    left: 35%; 
     transform: translate(-50%, -50%);
     background-color: var(--primary-color);
-    opacity: 0.8;
+    opacity: 0.95;
     color:#f4f4f4;
     border: none; 
     border-radius: 50px;
@@ -73,14 +73,14 @@ body {
     font-size: 1.2em;
     cursor: pointer;
     z-index: 2;
-    box-shadow: 2px 2px 10px var(--primary-color);
+    box-shadow: 0px 0px 10px 4px rgba(255, 255, 255, 0.8);
     transition: all 0.4s ease;
 
 }
 .main-img button:hover {
     opacity: 1;
     scale: 1.2;
-
+    box-shadow: 0px 0px 10px 9px rgba(255, 255, 255, 0.8);
 }
 
 
