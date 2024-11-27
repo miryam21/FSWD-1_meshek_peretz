@@ -1,12 +1,4 @@
-:root{
-    --primary-color:rgb(137 82 38);
-    --second-color:#52ac41;
-}
-html {
-    direction: rtl;
-    background-color: #e6ede6;
 
-}
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -18,6 +10,8 @@ body {
 }
 
 .contact-container {
+    background-color: rgba(255, 255, 255);
+
     margin: 10vh auto;
     padding: 10px;
     border-radius: 10px;
@@ -27,8 +21,9 @@ body {
 
 .contact-container h1 {
     margin-bottom: 10px;
-    color: #52ac41;
+    color: var(--primary-color);
     font-size: 2.5em;
+    
 }
 .contact-container h2 {
     color: #52ac41;
