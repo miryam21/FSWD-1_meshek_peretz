@@ -1,7 +1,9 @@
 body {
+    min-height: 100vh;
     font-family: "M PLUS Rounded 1c", sans-serif;  
     line-height: 1.5;
     margin: 0;
+    height: 100vh;
 }
 .main {
     display: grid;
@@ -10,8 +12,6 @@ body {
     gap: 20px; 
     padding: 20px;
 }
-
-
 
 .space {
     height: 50px;
@@ -142,9 +142,10 @@ body {
 
 .map {
     position: absolute;
-    top: 20%;
-    left: 80%;
-    transform: translate(-50%, -20%);
+    top: auto; 
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
     border-radius: 5%;
     border-width: 2px;
     border-style: solid;

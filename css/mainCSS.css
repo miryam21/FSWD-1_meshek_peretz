@@ -3,6 +3,7 @@
 :root{
     --primary-color:rgb(137 82 38);
     --second-color:#52ac41;
+    
 }
 html {
     direction: rtl;
@@ -16,6 +17,9 @@ header {
     justify-content: space-between;
     align-items: center;
     max-height: 10vh;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 header nav{

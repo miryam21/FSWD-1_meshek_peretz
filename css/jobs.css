@@ -1,0 +1,72 @@
+
+body {
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: right;
+}
+
+.title {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    display:flex ;
+    gap: 30vw;
+}
+
+.title h1{
+    font-family: "Secular One", sans-serif;
+    margin: 0 20px;
+    font-size: 4em;
+
+}
+.title p{
+    font-family: "M PLUS Rounded 1c", sans-serif; 
+
+}
+main {
+    padding: 20px;
+}
+
+
+ul.job-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.job-list li {
+    background-color: white;
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ul.job-list li h3 {
+    margin: 0 0 10px;
+    color: #4CAF50;
+}
+
+ul.job-list li p {
+    margin: 5px 0;
+}
+
+footer {
+    text-align: center;
+    background-color: #4CAF5088;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-radius: 100% 100% 0 0;
+}
+footer p a{
+    color: var(--primary-color);
+    font-size:1.5em;
+    font-family: "M PLUS Rounded 1c", sans-serif; 
+    text-decoration: none;
+    font-weight: bolder;
+}
+
