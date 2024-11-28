@@ -159,25 +159,6 @@ body {
     position: relative; 
     z-index: 1;
 }
-.details{
-    width: 100%;
-    transform: translateY(170px);
-    display: flex;
-    justify-content: space-around;
-    background-color: rgba(255,255,255, 0.6);
-
-}
-.details p{
-    font-size: 1.2em;
-    font-weight: 500;
-}
-
-.details .map{
-    z-index: 5;
-    height: 40vh;
-    width: 25vw;
-    border-radius: 12%;
-}
 .newsletter {
     text-align: center;
     max-width: 400px;
@@ -230,6 +211,35 @@ body {
     background-color: #45a049; 
 }
 
+.details{
+    width: 100%;
+    transform: translateY(170px);
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(255,255,255, 0.6);
+
+}
+.details p{
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.details .map{
+    z-index: 5;
+    height: 40vh;
+    width: 25vw;
+    border-radius: 12%;
+}
+.details a{
+    top: 10%;
+    justify-self: end;
+}
+
+.details a img{
+    width: 30px;
+    height: 30px;
+
+}
 
 
 /*gpt זה טוב להמשך לרספונסיביות
