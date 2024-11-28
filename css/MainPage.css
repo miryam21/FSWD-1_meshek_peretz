@@ -110,7 +110,6 @@ body {
 
 .img-bar:hover {
     scale: 1.2;
-    cursor: pointer;
     border-width: 5px;
     border-color: var(--second-color);
     border-style: solid;
@@ -135,33 +134,101 @@ body {
     font-size: 1.2em;
 }
 .foot-container {
-    position: relative;
+    position: relative; 
     width: 100%;
+    height: 100%;
     margin: auto;
 }
 
-.map {
-    position: absolute;
-    top: auto; 
-    bottom: 10%;
-    left: 50%;
-    transform: translateX(-50%);
-    border-radius: 5%;
-    border-width: 2px;
-    border-style: solid;
-    border-color: var(--primary-color);
-    width: 300px;
-    height: 150px;
-    z-index: 2;
+.flex-container {
+    height: 100%;
+    width: 100%;
+    position: absolute; 
+    z-index:3; 
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .image {
     opacity: 0.2;
     width: 100%;
     object-fit: cover;
+    position: relative; 
     z-index: 1;
 }
+.details{
+    width: 100%;
+    transform: translateY(170px);
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(255,255,255, 0.6);
 
+}
+.details p{
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.details .map{
+    z-index: 5;
+    height: 40vh;
+    width: 25vw;
+    border-radius: 12%;
+}
+.newsletter {
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+    margin-top: 5%;
+    padding: 20px;
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.newsletter h2 {
+    font-family: "Secular One", sans-serif;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.newsletter input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    box-sizing: border-box;
+}
+
+.newsletter button {
+    padding: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 1em;
+    font-family: "Secular One", sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.newsletter  button:hover {
+    background-color: #45a049; 
+}
 
 
 
