@@ -11,14 +11,18 @@
 <body>
     <!-- כותרת -->
     <header>
-        <nav>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        <label for="menu-toggle" class="hamburger">☰</label>
+        <nav class="menu">
             <a href="History.html">איך הכל התחיל</a>
             <a href="Products.html">המוצרים שלנו</a>
             <a href="Jobs.html">דרושים</a>
             <a href="ContactUs.html">צור קשר</a>
         </nav>
-        <a href="MainPage.html"><img src="../images/logo1.png" alt="לוגו האתר" width="50"></a>
-    </header>
+        <a href="MainPage.html">
+            <img src="../images/logo1.png" alt="לוגו האתר" width="50">
+        </a>
+    </header> 
 
     <!-- תוכן מרכזי -->
     <main>
@@ -148,6 +152,9 @@
             </div>
             <div class="war-audio">
                 <h3>ראיון עם מיכאל פרץ</h3>
+                <audio controls>
+                    <source src="https://96fm.co.il/wp-content/uploads/2024/11/מיכאל-פרץ.mp3" type="audio/mpeg">
+                </audio>
                 <p>
                     מיכאל פרץ, הבן של שאול פרץ, התראיין לתוכנית הרדיו של חיים הכט וסיפר על השריפה שהתרחשה במשק. 
                     בראיון הוא מתאר את הרגעים הקשים, את הנזקים הכבדים שנגרמו למשק, ואת הדרך שבה המשפחה מתמודדת 
@@ -166,15 +173,10 @@
                      זה ימוטט אותה".
 
                 </p>
-                <audio controls>
-                    <source src="https://96fm.co.il/wp-content/uploads/2024/11/מיכאל-פרץ.mp3" type="audio/mpeg">
-                </audio>
+
         
             </div>
-        </section>
-        
-        
-        
+        </section> 
     </main>
 
     <!-- תחתית העמוד -->
