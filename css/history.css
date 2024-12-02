@@ -208,6 +208,17 @@ footer {
         width: 200px; 
         height: 150px;
     }
+    #pdf-viewer {
+        margin: 20px auto;
+        text-align: center;
+    }
+    
+    #pdf-viewer h2 {
+        color: #4caf50;
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+    
 }
 
 
