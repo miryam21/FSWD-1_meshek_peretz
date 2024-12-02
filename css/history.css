@@ -1,5 +1,5 @@
 /* עיצוב כללי */
-body {
+main {
     font-family: "M PLUS Rounded 1c", sans-serif;
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@ body {
 
 /* עיצוב כללי של כותרות H2 */
 h2 {
-    color: #4caf50; /* צבע כותרת */
+    color: var(--second-color); /* צבע כותרת */
     font-size: 2rem; /* גודל כותרת */
     margin-bottom: 10px; /* מרווח תחתון */
     text-align: right; /* יישור לימין */
@@ -186,7 +186,7 @@ section {
 
 /* תחתית העמוד */
 footer {
-    background-color: #4caf50;
+    background-color: var(--second-color);
     color: white;
     text-align: center;
     padding: 10px 0;
@@ -202,6 +202,7 @@ footer a {
 footer a:hover {
     color: white;
 }
+
 
 /* התאמות רספונסיביות */
 @media (max-width: 768px) {

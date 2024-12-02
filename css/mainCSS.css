@@ -4,15 +4,20 @@
 :root{
     --primary-color:rgb(137 82 38);
     --second-color:#52ac41;
+    --bg-color:#f4f4f4;
     
 }
 html {
     direction: rtl;
 }
-
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
 
 header {
-    background-color: #f4f4f4;
+    background-color: var(--bg-color);
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
@@ -66,6 +71,22 @@ header nav a:hover {
 .menu-toggle {
     display: none;
 }
+.space {
+    height: 50px;
+}
+
+.title {
+    background-color: var(--second-color);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    font-family: "Secular One", sans-serif;
+}
+
+.title h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
 
 /* עיצוב למסכים קטנים */
 @media (max-width: 800px) {
@@ -75,7 +96,7 @@ header nav a:hover {
         position: absolute;
         top: 100%;
         right: 0;
-        background-color: #f4f4f4;
+        background-color: var(--bg-color);
         width: 35%;
         height: 100vh;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);

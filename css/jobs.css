@@ -11,26 +11,23 @@ section {
 }
 
 .title {
-    background-color: #4CAF50;
-    color: white;
-    text-align: center;
     align-items: center;
     display:flex ;
-    gap: 20vw;
-    padding: 0;
-    max-height: 15vh;
+    gap: 5vw;
 }
 
 .title h1{
-    font-family: "Secular One", sans-serif;
-    margin-right:40px;
-    font-size: 3em;
+    margin-right: 45%;
 
 }
+
 .title p{
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: 40px;
     font-family: "M PLUS Rounded 1c", sans-serif;  
-    font-size: 2.5em;
+    font-size: clamp(2rem,2.5vw,3rem);
 
 }
 main {
@@ -53,7 +50,7 @@ ul.job-list li {
 
 ul.job-list li h3 {
     margin: 0 0 10px;
-    color: #4CAF50;
+    color: var(--second-color);
 }
 
 ul.job-list li p {
@@ -62,7 +59,7 @@ ul.job-list li p {
 
 footer {
     text-align: center;
-    background-color: #4CAF5066;
+    background-color: var(--second-color)66;
     padding: 5px;
     position: fixed;
     bottom: 0;
