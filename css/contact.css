@@ -55,36 +55,40 @@ main {
     color: black;
     font-weight: 500;
 }
+.space a img{
+    max-height: 50px;
+    max-width: auto;
+}
 
-.contact-table {
+#contact-table {
     text-align: center;
 }
 
-.contact-table h2 {
+#contact-table h2 {
     font-size: 1.8em;
     margin-bottom: 20px;
 }
 
-.contact-table table {
+#contact-table table {
     width: 100%;
     border-collapse: collapse;
     margin: auto;
 }
 
-.contact-table th,
-.contact-table td {
+#contact-table th,
+#contact-table td {
     padding: 10px;
     font-size: 1em;
     text-align: center;
 }
-.contact-table th {
+#contact-table th {
     font-weight: bold;
     background-color: var(--second-color);
     color: white;
     border: none;
 }
 
-.contact-table tr{
+#contact-table tr{
     background-color: #f9f9f9;
 }
 

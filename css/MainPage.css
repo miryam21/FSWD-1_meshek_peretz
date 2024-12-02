@@ -15,11 +15,9 @@ body {
 .mainSection {
     background-color:var(--second-color);
     height: 80vh;
-    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    text-align: left;
     position: relative;
     border-radius: 10%;
 }
@@ -27,9 +25,10 @@ body {
 .mainSection h1 {
     font-weight: 400;
     font-style: normal;  
-    font-size: clamp(0.1rem,12vh,4rem);
+    font-size:6vw;
     color: var(--bg-color);
     text-align: right;
+    margin-right: 8%;
 
 }
 .main-img {
@@ -40,6 +39,8 @@ body {
     display: flex;
     justify-content: center; 
     align-items: center;
+    margin-right: auto;
+
 }
 
 .main-img img {
@@ -64,7 +65,7 @@ body {
     border: none; 
     border-radius: 50px;
     padding: 10px 20px; 
-    font-size: 1.5vw;
+    font-size: clamp(1rem,1.5vw,2rem);
     cursor: pointer;
     z-index: 2;
     box-shadow: 0px 0px 10px 4px rgba(255, 255, 255, 0.8);
@@ -110,29 +111,29 @@ body {
     z-index: 5;
 }
 
-
-
 .about {
     text-align: center;
+    background-color: #d0d0d055;
+    padding: 5px;
 }
 
 .about h1 {
-    font-size: 2em;
+    font-size: 2.8em;
     color:var(--primary-color);
 }
 
 .about h2 {
-    font-size: 1.2em;
+    font-size: 1.6em;
 }
 .foot-container {
     position: relative; 
     width: 100%;
-    height: 100%;
+    height: 150vh;
     margin: auto;
+    margin-bottom: 0;
 }
 
 .flex-container {
-    height: 100%;
     width: 100%;
     position: absolute; 
     z-index:3; 
@@ -141,6 +142,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .image {
@@ -161,6 +163,7 @@ body {
     border-radius: 8px; 
     background-color: white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
 
 }
 
@@ -209,6 +212,8 @@ body {
     display: flex;
     justify-content: space-around;
     background-color: rgba(255,255,255, 0.6);
+    position: relative;
+    align-items: center;
 
 }
 .details p{
@@ -223,7 +228,6 @@ body {
     border-radius: 12%;
 }
 .details a{
-    top: 10%;
     justify-self: end;
 }
 
@@ -238,8 +242,13 @@ body {
 @media (max-width: 768px) {
     .mainSection {
         height: auto; 
-        padding: 10px;
+        padding: 0px;
         font-size: 1.8rem;
+    }
+
+    .main-img img{
+        border-radius: 10% 0 0 10%;
+        margin-right: auto;
     }
 
     .details {
@@ -270,15 +279,14 @@ body {
 }
 
 @media (max-width: 480px) {
-    .main {
-        padding: 10px;
-    }
+
     .mainSection h1 {
         font-size: 1.2rem;
     }
+    
     .main-img button {
-        width: 60%;
-        font-size: 0.9rem;
+        width: 50%;
+        font-size: 0.7rem;
     }
     .about h1, .about h2 {
         font-size: 1rem;

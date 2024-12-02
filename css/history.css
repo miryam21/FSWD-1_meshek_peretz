@@ -1,30 +1,25 @@
-/* עיצוב כללי */
 main {
     font-family: "M PLUS Rounded 1c", sans-serif;
     margin: 0;
     padding: 0;
-    direction: rtl;
-    background-color: #f9f9f9;
+    background-color: var(--bg-color);
     color: #333;
     line-height: 1.5;
 }
 
-/* עיצוב כללי של כותרות H2 */
 h2 {
-    color: var(--second-color); /* צבע כותרת */
-    font-size: 2rem; /* גודל כותרת */
-    margin-bottom: 10px; /* מרווח תחתון */
-    text-align: right; /* יישור לימין */
+    color:var(--second-color); 
+    font-size: 2rem; 
+    margin-bottom: 10px; 
+    text-align: right; 
 }
 
-/* עיצוב כללי של פסקאות */
 p {
-    font-size: 1.2rem; /* גודל טקסט בפסקה */
-    margin-bottom: 20px; /* ריווח תחתון */
-    text-align: right; /* יישור לימין */
+    font-size: 1.2rem; 
+    margin-bottom: 20px; 
+    text-align: right; 
 }
 
-/* עיצוב כללי של חלקים */
 section {
     padding: 20px;
     background-color: #f1f1f1;
@@ -33,19 +28,19 @@ section {
     margin-bottom: 20px;
 }
 
-/* עיצוב עבור field-images */
+
 .field-images {
-    display: flex; /* הופך את המיכל למיכל Flexbox */
-    justify-content: center; /* מרכז את התמונות */
+    display: flex; 
+    justify-content: center; 
     flex-wrap: wrap; /* מאפשר לשבור שורה אם אין מקום */
     gap: 15px; /* ריווח אחיד בין התמונות */
     margin-top: 20px;
 }
 
 .field-images img {
-    width: 300px; /* רוחב קבוע */
-    height: 200px; /* גובה קבוע */
-    object-fit: cover; /* שומר על יחס התמונה */
+    width: 300px; 
+    height: 200px; 
+    object-fit: cover; 
     border-radius: 10px; /* מעגל את הפינות */
     background-color: transparent; /* רקע שקוף */
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* הצללה */
@@ -57,19 +52,18 @@ section {
     box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* עיצוב עבור history-images */
 .history-images {
-    display: flex; /* הופך את המיכל למיכל Flexbox */
+    display: flex; 
     justify-content: center; /* מרכז את התמונות */
     flex-wrap: wrap; /* מאפשר לשבור שורה אם אין מקום */
-    gap: 15px; /* ריווח אחיד בין התמונות */
+    gap: 15px; 
     margin-top: 20px;
 }
 
 .history-images img {
-    width: 300px; /* רוחב קבוע */
-    height: 200px; /* גובה קבוע */
-    object-fit: contain; /* שומר על יחס התמונה */
+    width: 300px; 
+    height: 200px; 
+    object-fit: contain; 
     border-radius: 10px; /* מעגל את הפינות */
     background-color: transparent; /* רקע שקוף */
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* הצללה */
@@ -81,21 +75,20 @@ section {
     box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* עיצוב עבור additional-images */
 .additional-images {
-    display: flex; /* הופך את המיכל למיכל Flexbox */
+    display: flex; 
     justify-content: space-between; /* מסדר את התמונות בשורה */
     flex-wrap: wrap; /* מאפשר לשבור שורה אם אין מקום */
-    gap: 15px; /* ריווח אחיד בין התמונות */
+    gap: 15px; 
     margin-top: 20px;
 }
 
 .additional-images img {
-    width: 300px; /* רוחב קבוע */
-    height: 200px; /* גובה קבוע */
-    object-fit: cover; /* מכסה את המיכל ושומר על יחס התמונה */
-    border-radius: 10px; /* מעגל את הפינות */
-    background-color: #fff; /* רקע לבן */
+    width: 300px; 
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 10px; 
+    background-color: #fff; 
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* הצללה */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* אפקט ריחוף */
 }
@@ -106,7 +99,7 @@ section {
 }
 
 
-/* עיצוב הסקשן */
+
 #before-after {
     text-align: center;
     margin: 20px 0;
@@ -129,7 +122,6 @@ section {
     margin-top: 20px;
 }
 
-/* עיצוב של כל חלק */
 .comparison {
     flex: 1;
     text-align: center;
@@ -145,46 +137,45 @@ section {
 }
 
 .comparison img {
-    width: 100%; /* מתאים את התמונה לרוחב המיכל */
-    height: 300px; /* גובה קבוע */
-    object-fit: cover; /* ממלא את המיכל ושומר על יחס התמונה */
+    width: 100%; 
+    height: 300px; 
+    object-fit: cover; 
     border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
+
 /* עיצוב מיכל הווידאו */
 .war-media{
     text-align: center;
-    margin: 20px auto; /* ריווח סביב המיכל */
+    margin: 20px auto; 
     padding: 20px;
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* הצללה */
-    max-width: 800px; /* רוחב מקסימלי */
+    max-width: 80vw; 
     width: 90%; /* מתאים את הרוחב למסכים קטנים */
 }
 
 
-
-/* עיצוב הווידאו */
 .war-video {
     width: 80%; /* הווידאו יתפוס 80% מרוחב המיכל */
-    max-width: 600px; /* הגבלה על הרוחב המקסימלי */
+    max-width: 600px; 
     height: auto; /* שמירה על הפרופורציות */
     border-radius: 10px; /* פינות מעוגלות */
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* הצללה */
-    margin: 0 auto; /* ממרכז את הווידאו */
+    margin: 0 auto; 
 }
 
-/* אפקט ריחוף */
 .war-video:hover {
-    transform: scale(1.02); /* אפקט הגדלה קל */
+    transform: scale(1.02); /* אפקט הגדלה*/
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.2); /* הצללה מוגברת */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+.war-video video{
+    max-width: 100%;
+    max-height: 70%;
+}
 
-
-
-/* תחתית העמוד */
 footer {
     background-color: var(--second-color);
     color: white;
@@ -192,40 +183,29 @@ footer {
     padding: 10px 0;
 }
 
-footer a {
-    color: #ffcc00;
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s ease;
-}
-
-footer a:hover {
-    color: white;
-}
-
 
 /* התאמות רספונסיביות */
 @media (max-width: 768px) {
     h2 {
-        font-size: 1.5rem; /* גודל כותרת קטן יותר */
+        font-size: 1.5rem;
     }
 
     p {
-        font-size: 1rem; /* גודל טקסט קטן יותר */
+        font-size: 1rem;
     }
 
     .field-images img {
-        width: 200px; /* רוחב קטן יותר */
+        width: 200px; 
         height: 150px;
     }
 
     .history-images img {
-        width: 200px; /* רוחב קטן יותר */
+        width: 200px; 
         height: 150px;
     }
 
     .additional-images img {
-        width: 200px; /* רוחב קטן יותר */
+        width: 200px; 
         height: 150px;
     }
 }
@@ -245,25 +225,25 @@ footer a:hover {
     }
 
     h2 {
-        font-size: 1.2rem; /* גודל כותרת קטן יותר */
+        font-size: 1.2rem; 
     }
 
     p {
-        font-size: 0.9rem; /* גודל טקסט קטן יותר */
+        font-size: 0.9rem; 
     }
 
     .field-images img {
-        width: 150px; /* רוחב קטן לטלפונים */
+        width: 150px; 
         height: 100px;
     }
 
     .history-images img {
-        width: 150px; /* רוחב קטן לטלפונים */
+        width: 150px; 
         height: 100px;
     }
 
     .additional-images img {
-        width: 150px; /* רוחב קטן לטלפונים */
+        width: 150px; 
         height: 100px;
     }
 }

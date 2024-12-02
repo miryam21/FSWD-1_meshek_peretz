@@ -9,11 +9,13 @@
 }
 html {
     direction: rtl;
+    scroll-behavior: smooth;
+
 }
 body {
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
+    background-color: var(--bg-color);
 }
 
 header {
@@ -53,7 +55,7 @@ header nav a {
     text-decoration: none;
     color: var(--primary-color);
     margin: 0px 30px;
-    font-size: 1.3em;
+    font-size:1.6vw;
     font-weight: 200;
     font-style: normal;
 }
@@ -88,7 +90,7 @@ header nav a:hover {
     font-size: 2.5em;
 }
 
-/* עיצוב למסכים קטנים */
+
 @media (max-width: 800px) {
     .menu {
         display: none;
@@ -113,6 +115,7 @@ header nav a:hover {
     }
 
     nav a {
+        font-size:5rem;
         margin: 10px 0;
         text-align: right;
     }
