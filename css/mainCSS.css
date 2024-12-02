@@ -55,13 +55,13 @@ header nav a {
     text-decoration: none;
     color: var(--primary-color);
     margin: 0px 30px;
-    font-size:1.6vw;
+    font-size:clamp(1em,1.6vw,4em);
     font-weight: 200;
     font-style: normal;
 }
 
 header nav a:hover {
-    font-size: 1.35em;
+    font-size:clamp(1.1em,1.8vw,3em);
 }
 
 .hamburger {
@@ -115,7 +115,6 @@ header nav a:hover {
     }
 
     nav a {
-        font-size:5rem;
         margin: 10px 0;
         text-align: right;
     }
